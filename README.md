@@ -1,4 +1,4 @@
-# Simple-HTML-and-CSS-website
+# HTML-CSS-Workout-Website
 Trying to build a simple website using HTML and CSS
 Goals for the website:
 - Needs to have a dope and cool design
