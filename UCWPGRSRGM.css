@@ -1,21 +1,78 @@
 body {
     background: linear-gradient(110deg, rgb(66, 69, 90), rgb(66, 69, 90), rgba(66, 69, 90, 0.8));
     color:rgb(199, 199, 199);
-    font-family: sans-serif;
+    font-size: 1.25em;
+    text-align: justify;
+    font-family: "open sans",sans-serif;
+}
+
+table {
+    display: block;
+    margin: auto;
+    width: 40%;
 }
 
 .link:hover {
     color: rgb(255, 60, 60);
+    font-family: Montserrat, sans-serif;
+}
+
+ul li {
+    position: relative;
+    margin-left: 26.7em;
 }
 
 .title {
     color: rgb(34, 186, 197);
+    font-weight: 400;
+    font-family: Montserrat, sans-serif;
+    font-size: 4em;
+    text-align: center;
 }
+
+.title-text {
+    text-align: center;
+}
+
 
 .subtitle {
     color: rgb(136, 85, 255);
+    font-family: Montserrat, sans-serif;
 }
 
 .subtitle-dl {
     color:rgb(0, 132, 165);
+    font-family: Montserrat, sans-serif;
+}
+
+#calculator {
+    width: 40%;
+    height: 20em;
+    border: 2px solid transparent;
+    border-image: linear-gradient(110deg, rgb(34, 186, 197), rgb(136, 85, 255)) 1;
+    border-width: 10px;
+    display: block;
+    margin: auto;
+}
+
+.textarea {
+    position: relative;
+    left: 2em;
+    margin: 2em;
+    max-width: 80em;
+}
+
+ .app-link {
+    position: relative;
+    left: 32em;
+}
+
+.picture {
+    display: block;
+    margin: auto;
+    border-radius: 2em;
+}
+
+#iframe-title {
+    text-align: center;
 }
