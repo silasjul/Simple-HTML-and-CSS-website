@@ -12,6 +12,11 @@ table {
     width: 40%;
 }
 
+dd {
+    position: relative;
+    left: 3em;
+}
+
 .link:hover {
     color: rgb(255, 60, 60);
     font-family: Montserrat, sans-serif;
@@ -38,9 +43,13 @@ ul li {
 .subtitle {
     color: rgb(136, 85, 255);
     font-family: Montserrat, sans-serif;
+    position: relative;
+    left: 2.5em;
 }
 
 .subtitle-dl {
+    position: relative;
+    left: 2em;
     color:rgb(0, 132, 165);
     font-family: Montserrat, sans-serif;
 }
