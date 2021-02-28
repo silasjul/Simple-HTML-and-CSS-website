@@ -1,0 +1,21 @@
+body {
+    background: linear-gradient(110deg, rgb(66, 69, 90), rgb(66, 69, 90), rgba(66, 69, 90, 0.8));
+    color:rgb(199, 199, 199);
+    font-family: sans-serif;
+}
+
+.link:hover {
+    color: rgb(255, 60, 60);
+}
+
+.title {
+    color: rgb(34, 186, 197);
+}
+
+.subtitle {
+    color: rgb(136, 85, 255);
+}
+
+.subtitle-dl {
+    color:rgb(0, 132, 165);
+}
